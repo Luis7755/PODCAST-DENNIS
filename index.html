@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salud Cerebral - Podcast</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-brain me-2"></i>
+                Salud Cerebral
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#episodio">Último Episodio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#puntos-clave">Puntos Clave</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#suscribete">Suscríbete</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="bg-primary text-white text-center py-5" style="margin-top: 56px;">
+        <div class="container py-5">
+            <h1 class="display-4 fw-bold">Tu Cerebro, Tu Mayor Tesoro</h1>
+            <p class="lead mb-4">Descubre las 5 claves esenciales para mantener tu cerebro saludable y optimizar su funcionamiento</p>
+            <button class="btn btn-light btn-lg" onclick="window.location.href='escuchar.html'">
+                <i class="fas fa-play me-2"></i>
+                Escuchar ahora
+            </button>
+        </div>
+    </section>
+
+    <!-- Latest Episode -->
+    <section id="episodio" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="video-placeholder h-100 d-flex align-items-center justify-content-center flex-column p-4 bg-light rounded">
+                        <i class="fas fa-film fa-3x mb-3 text-primary"></i>
+                        <h3 class="h5 text-center">Ver episodio en YouTube</h3>
+                        <a href="https://www.youtube.com/watch?v=cgB-vM2xRMU" 
+                           target="_blank" 
+                           class="btn btn-primary mt-3">
+                            <i class="fab fa-youtube me-2"></i>
+                            Ver en YouTube
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-4">Último Episodio: Protege tu Cerebro</h2>
+                    <p class="lead">Un viaje fascinante por los secretos del cerebro y cómo mantenerlo en óptimas condiciones.</p>
+                    <div class="d-flex gap-3 mb-4">
+                        <span class="badge bg-primary">45 min</span>
+                        <span class="badge bg-success">Nuevo</span>
+                        <span class="badge bg-info">Salud Mental</span>
+                    </div>
+                    <button class="btn btn-primary mb-3">
+                        <i class="fas fa-headphones me-2"></i>
+                        Reproducir episodio
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Points -->
+    <section id="puntos-clave" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Puntos Clave del Episodio</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-heart text-danger fa-3x mb-3"></i>
+                            <h3 class="card-title h4">Cerebro y Placer</h3>
+                            <p class="card-text">Comprende cómo tu cerebro procesa el placer y aprende a gestionar los estímulos que recibe.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-shield-alt text-success fa-3x mb-3"></i>
+                            <h3 class="card-title h4">Neuroprotectores</h3>
+                            <p class="card-text">Descubre los 5 elementos esenciales para proteger y mantener tu cerebro saludable.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-mobile-alt text-primary fa-3x mb-3"></i>
+                            <h3 class="card-title h4">Tecnología</h3>
+                            <p class="card-text">Aprende a usar la tecnología de manera consciente sin afectar tu salud cerebral.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscribe Section -->
+    <section id="suscribete" class="py-5 bg-dark text-white">
+        <div class="container text-center">
+            <h2 class="mb-4">No te pierdas ningún episodio</h2>
+            <p class="lead mb-4">Suscríbete en tu plataforma favorita</p>
+            <div class="row justify-content-center g-3">
+                <div class="col-md-2 col-6">
+                    <button class="btn btn-outline-light w-100">
+                        <i class="fab fa-spotify me-2"></i>
+                        Spotify
+                    </button>
+                </div>
+                <div class="col-md-2 col-6">
+                    <button class="btn btn-outline-light w-100">
+                        <i class="fab fa-apple me-2"></i>
+                        Apple
+                    </button>
+                </div>
+                <div class="col-md-2 col-6">
+                    <button class="btn btn-outline-light w-100">
+                        <i class="fab fa-google me-2"></i>
+                        Google
+                    </button>
+                </div>
+                <div class="col-md-2 col-6">
+                    <button class="btn btn-outline-light w-100">
+                        <i class="fas fa-podcast me-2"></i>
+                        iVoox
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-light">
+        <div class="container text-center">
+            <div class="mb-3">
+                <a href="#" class="text-dark mx-2"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="#" class="text-dark mx-2"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="#" class="text-dark mx-2"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#" class="text-dark mx-2"><i class="fab fa-youtube fa-lg"></i></a>
+            </div>
+            <p class="mb-0">© 2024 Salud Cerebral Podcast. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
